@@ -1,4 +1,3 @@
-import React from "react";
 import useGenres, { Genre } from "../hooks/useGenres";
 import {
   Button,
@@ -8,7 +7,6 @@ import {
   List,
   ListItem,
   Spinner,
-  Text,
 } from "@chakra-ui/react";
 import getCroppedImageUrl from "../services/image-url";
 
